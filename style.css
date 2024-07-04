@@ -1,0 +1,69 @@
+body{
+  width: 100%;
+  
+  margin: 0;
+  padding: 0;
+  color: black;
+  overflow-x: hidden;
+}
+html{
+ width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;}
+
+
+.d-flex ul li{
+  display:inline-flex;
+  padding: 0 20px;
+}
+.d-flex{
+  justify-content:space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 20px;
+}
+.d-flex ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.btn.btn-success{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-color: #422368;
+  border-width: 2px;
+}
+.btn.btn-success:hover{
+  background-color: #422368;
+  color: white;
+}
+.btn.btn-danger{
+  background-color: #422368;
+  border-color: #422368;
+  border-width: 2px;
+  font-weight: bold;
+}
+.btn.btn-danger:hover{
+  border-color: #422368;
+}
+.container.first{
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.alpha {
+  background: linear-gradient(to bottom, white 80%, #c58bf3 100%, #422368 80% );
+}
+.pt-4{
+  background: linear-gradient(70deg, white 85%, #c58bf3 100%, #422368 90% );
+}
+@media(max-width:576px){
+  .sage{
+    text-align:center;
+  }
+}
+.team {
+  background: linear-gradient(to bottom, white 90%, #c58bf3 100%, #422368 80% );
+}
